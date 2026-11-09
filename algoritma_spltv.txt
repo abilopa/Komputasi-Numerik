@@ -1,0 +1,149 @@
+# ALGORITMA PENYELESAIAN SISTEM PERSAMAAN LINEAR TIGA VARIABEL (SPLTV)
+
+**Metode: Eliminasi Gauss**
+
+## 1. Tujuan
+Membuat algoritma untuk menyelesaikan Sistem Persamaan Linear Tiga Variabel (SPLTV) dengan menggunakan metode Eliminasi Gauss sehingga diperoleh nilai variabel x, y, dan z.
+
+## 2. Contoh Persamaan
+
+Diketahui tiga persamaan:
+
+\[
+x+y+z=6s
+\]
+
+\[
+2x+y+z=8
+\]
+
+\[
+x+2y+z=9
+\]
+
+## 3. Algoritma Penyelesaian
+
+**Input:**
+- Tiga persamaan linear.
+- Koefisien setiap variabel.
+- Nilai konstanta setiap persamaan.
+
+**Langkah-langkah:**
+
+1. Mulai.
+2. Masukkan koefisien dan konstanta dari tiga persamaan.
+3. Bentuk matriks augmented berukuran 3 × 4.
+4. Periksa elemen pivot pada kolom pertama.
+5. Jika pivot bernilai nol, tukar baris dengan baris di bawahnya yang memiliki pivot tidak nol.
+6. Lakukan eliminasi pada kolom pertama untuk menghilangkan variabel x pada baris kedua dan ketiga.
+7. Lakukan eliminasi pada kolom kedua untuk menghilangkan variabel y pada baris ketiga.
+8. Periksa apakah sistem memiliki solusi tunggal.
+9. Hitung nilai z menggunakan persamaan pada baris ketiga.
+10. Hitung nilai y menggunakan substitusi mundur pada baris kedua.
+11. Hitung nilai x menggunakan substitusi mundur pada baris pertama.
+12. Tampilkan nilai x, y, dan z.
+13. Selesai.
+
+**Catatan:** Jika pivot tidak dapat ditemukan, periksa konsistensi sistem untuk menentukan apakah tidak memiliki solusi atau memiliki banyak solusi.
+
+## 4. Pseudocode
+
+```text
+ALGORITMA PENYELESAIAN SPLTV
+
+MULAI
+
+1. Masukkan matriks augmented A berukuran 3 x 4.
+
+2. UNTUK k = 0 sampai 2:
+   a. Periksa pivot pada kolom k.
+   b. Jika pivot nol, lakukan pertukaran baris.
+   c. Jika tidak ditemukan pivot yang sesuai,
+      periksa konsistensi sistem.
+   d. Bagi baris pivot dengan nilai pivot.
+   e. Hilangkan elemen di bawah pivot
+      menggunakan operasi baris elementer.
+
+3. Lakukan substitusi mundur:
+   a. Hitung nilai z.
+   b. Hitung nilai y.
+   c. Hitung nilai x.
+
+4. Tampilkan hasil x, y, dan z.
+
+SELESAI
+```
+
+## 5. Contoh Perhitungan
+
+Diketahui:
+
+\[
+\begin{aligned}
+x+y+z&=6\\
+2x+y+z&=8\\
+x+2y+z&=9
+\end{aligned}
+\]
+
+Bentuk matriks augmented:
+
+\[
+\begin{bmatrix}
+1&1&1&|&6\\
+2&1&1&|&8\\
+1&2&1&|&9
+\end{bmatrix}
+\]
+
+Setelah dilakukan eliminasi Gauss, diperoleh:
+
+\[
+\begin{bmatrix}
+1&1&1&|&6\\
+0&-1&-1&|&-4\\
+0&0&-1&|&-1
+\end{bmatrix}
+\]
+
+Selanjutnya dilakukan substitusi mundur:
+
+Dari baris ketiga:
+
+\[
+-z=-1 \Rightarrow z=1
+\]
+
+Dari baris kedua:
+
+\[
+-y-z=-4
+\]
+
+\[
+-y-1=-4 \Rightarrow y=3
+\]
+
+Dari baris pertama:
+
+\[
+x+y+z=6
+\]
+
+\[
+x+3+1=6 \Rightarrow x=2
+\]
+
+## 6. Hasil Akhir
+
+Berdasarkan perhitungan menggunakan metode Eliminasi Gauss, diperoleh:
+
+- x = 2
+- y = 3
+- z = 1
+
+Dengan demikian, sistem persamaan linear tiga variabel tersebut memiliki solusi tunggal, yaitu x = 2, y = 3, dan z = 1.
+
+## 7. Kesimpulan
+
+Metode Eliminasi Gauss merupakan salah satu metode numerik yang dapat digunakan untuk menyelesaikan Sistem Persamaan Linear Tiga Variabel. Metode ini bekerja dengan mengubah matriks augmented menjadi bentuk segitiga atas melalui operasi baris elementer, kemudian menentukan nilai setiap variabel menggunakan substitusi mundur.
