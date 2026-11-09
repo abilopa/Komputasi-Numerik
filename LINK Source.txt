@@ -1,0 +1,6 @@
+LINK 
+GitHub        :   https://github.com/abilopa/Komputasi-Numerik.git
+google collab :   
+https://colab.research.google.com/drive/1jHglNvNSpy3pQ31qKhEVVCfGlO97ciKn?usp=sharing
+
+Linkdin : https://www.linkedin.com/in/abi-budiman-43ba37437 
