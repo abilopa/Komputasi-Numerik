@@ -1,0 +1,35 @@
+# DOKUMENTASI PROMPT AI
+## Tugas Komputasi Numerik – SPLTV
+
+**Nama:** Abi Budiman
+
+**NIM:** 202511420005
+
+**Program Studi:** Teknik Informatika
+
+**Universitas:** Universitas Dr. Soetomo (UNITOMO)
+
+### 1. Prompt Memahami Tugas
+"Bisa jelaskan tugas Komputasi Numerik ini dengan bahasa sederhana agar saya memahami apa saja yang harus dikerjakan?"
+
+### 2. Prompt Pembuatan Algoritma SPLTV
+"Bantu saya membuat algoritma penyelesaian Sistem Persamaan Linear Tiga Variabel (SPLTV) menggunakan metode Eliminasi Gauss. Sertakan tujuan, input, proses, output, pseudocode, contoh perhitungan, dan kesimpulan."
+
+### 3. Prompt Pembuatan Program Python
+"Buatkan kode Python untuk menyelesaikan SPLTV menggunakan metode Eliminasi Gauss. Pisahkan kode menjadi beberapa cell agar dapat dijalankan satu per satu di Google Colab. Berikan contoh persamaan dan tampilkan hasil nilai x, y, dan z."
+
+### 4. Prompt Penjelasan Kode
+"Buatkan penjelasan detail untuk setiap cell dan bagian penting dari kode Python SPLTV menggunakan metode Eliminasi Gauss. Gunakan bahasa Indonesia sederhana agar mudah dipahami mahasiswa pemula."
+
+### 5. Prompt Perbaikan Kode
+"Tampilkan kembali kode Cell 5 tentang proses substitusi mundur secara lengkap agar dapat saya salin dan jalankan di Google Colab."
+
+### 6. Prompt Bantuan Pengunggahan
+"Jelaskan langkah-langkah mengunggah file algoritma dan kode Python ke Repository GitHub dengan cara yang mudah dipahami oleh pemula."
+
+### 7. Tujuan Penggunaan AI
+AI digunakan sebagai alat bantu untuk memahami materi, menyusun algoritma, membuat program Python, memberikan penjelasan kode, dan membantu proses dokumentasi tugas.
+
+### 8. Keterangan
+Hasil bantuan AI dipelajari dan disesuaikan dengan kebutuhan tugas Komputasi Numerik. Program diuji menggunakan contoh persamaan SPLTV untuk memastikan hasil perhitungan sesuai.
+
